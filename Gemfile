@@ -41,7 +41,7 @@ group :development, :test do
   gem 'rspec-rails'
   # gem 'capybara'
   # gem 'launchy'
-  # gem 'simplecov'
+  gem 'simplecov'
   gem 'shoulda-matchers'
   # gem 'orderly'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
