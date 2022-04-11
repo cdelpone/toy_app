@@ -8,7 +8,7 @@ RSpec.describe "microposts/edit", type: :view do
     ))
   end
 
-  it "renders the edit micropost form" do
+  xit "renders the edit micropost form" do
     render
 
     assert_select "form[action=?][method=?]", micropost_path(@micropost), "post" do
